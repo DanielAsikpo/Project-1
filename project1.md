@@ -17,7 +17,10 @@
 
 ![Images](images/status%20apache.png)
 
-### If it's green and running, you've done everything right, Kudus to you*
+### If it's green and running, you've done everything right
+### Kudus to you!!
+
+
 
 
 
