@@ -1,4 +1,4 @@
-# **LAMP STACK IMPLEMENTATION**
+# **LAMP STACK IMPLEMENTATION ON AWS**
 
 ## **STEP 1 — INSTALLING APACHE AND UPDATING THE FIREWALL**
 This is web server installed to serve your contents. 
