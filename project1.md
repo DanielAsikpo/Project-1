@@ -1,6 +1,6 @@
-# LAMP STACK IMPLEMENTATION ON AWS
+# **LAMP STACK IMPLEMENTATION**
 
-## STEP 1 — INSTALLING APACHE AND UPDATING THE FIREWALL
+## **STEP 1 — INSTALLING APACHE AND UPDATING THE FIREWALL**
 This is web server installed to serve your contents. 
 
 The first thing to do is to update the linux package repository with the command below:
@@ -48,7 +48,7 @@ If you see the page below, your web server has been properly installed and is no
 ![Image](./Images/Apache_default_page.png)
 
 
-## STEP 2 - INSTALLING MYSQL (DBMS)
+## **STEP 2 - INSTALLING MYSQL (DBMS)**
 Now that you have a web server running, you need a database to manage the data. To install the Database, use the command below:
 
 `sudo apt install mysql-server`
@@ -106,7 +106,7 @@ To exit the MySQL console, type: `exit`
 
 Your MySQL server is now installed and secured. Next, we will install PHP, the final component in the LAMP stack.
 
-## STEP 3 — INSTALLING PHP
+## **STEP 3 — INSTALLING PHP**
 
 PHP is the component of our setup that will process code to display dynamic content to the end user. In addition to the php package, you’ll need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. You’ll also need libapache2-mod-php to enable Apache to handle PHP files. Core PHP packages will automatically be installed as dependencies.
 
@@ -130,7 +130,7 @@ To test your setup with a PHP script, it’s best to set up a proper Apache Virt
 
 We will configure our first Virtual Host in the next step.
 
-## STEP 4 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
+## **STEP 4 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE**
 
 In this project, you will set up a domain called projectlamp, but you can replace this with any domain of your choice.
 
@@ -213,7 +213,7 @@ In the output you will see your server’s public hostname (DNS name) and public
 You can leave this file in place as a temporary landing page for your application until you set up an index.php file to replace it. Once you do that, remember to remove or rename the index.html file from your document root, as it would take precedence over an index.php file by default.
 
 
-## STEP 5 — ENABLE PHP ON THE WEBSITE
+## **STEP 5 — ENABLE PHP ON THE WEBSITE**
 
 With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. This is useful for setting up maintenance pages in PHP applications, by creating a temporary index.html file containing an informative message to visitors. Because this page will take precedence over the index.php page, it will then become the landing page for the application. Once maintenance is over, the index.html is renamed or removed from the document root, bringing back the regular application page.
 
