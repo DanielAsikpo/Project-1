@@ -21,7 +21,7 @@ Verify that apache2 is running as a service in our OS
 
 ![Images](./Images/status%20_apache.png)
 
-If it is green and running, you've done everything right
+If it is green and running, you've done everything right!
 **Kudus to you! You have just launched your first Web Server in the Cloud!**
 
 Before you can receive any traffic on your Web Server, you need make sure your security group settings on AWS allows TCP port 80 traffic (HTTP).
