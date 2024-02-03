@@ -110,7 +110,7 @@ Your MySQL server is now installed and secured. Next, we will install PHP, the f
 
 PHP is the component of our setup that will process code to display dynamic content to the end user. In addition to the php package, you’ll need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. You’ll also need libapache2-mod-php to enable Apache to handle PHP files. Core PHP packages will automatically be installed as dependencies.
 
-To install these 3 packages at once, run:
+To install these 3 packages at once, run the following command:
 
 `sudo apt install php libapache2-mod-php php-mysql`
 
