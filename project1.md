@@ -1,7 +1,7 @@
 # **LAMP STACK IMPLEMENTATION ON AWS**
 
 ## **STEP 1 — INSTALLING APACHE AND UPDATING THE FIREWALL**
-This is web server installed to serve your contents. 
+This is a web server installed to serve your contents. 
 
 The first thing to do is to update the linux package repository with the command below:
 
@@ -26,7 +26,7 @@ If it is green and running, you've done everything right
 
 Before you can receive any traffic on your Web Server, you need make sure your security group settings on AWS allows TCP port 80 traffic (HTTP).
 
-You can try to check if it is locally running on your Ubuntu terminal using the follwing commands
+You can try to check if it is locally running on your Ubuntu terminal using the following commands
 
 `curl http://localhost:80` **(Acccessing through DNS)**
 
